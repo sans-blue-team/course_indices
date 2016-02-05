@@ -1,0 +1,482 @@
+Persistence;"persistence" in page
+$HOME_NET
+$TRUSTED
+.dll
+.evt
+.evtx
+.exe;".exe" in page and ("EXE" in cswordlist or "executable" in page)
+.jar
+Abnormal
+Access token;"security access token" in page or "sat" in wordlist or "access token" in page
+ACT, Application Compatibility Toolkit;"application compatibility toolkit" in page
+ActiveX
+Administrative accounts;"built-in administrator" in wordlist or "local administrator" in page or "administrative accounts" in page
+Adobe Reader
+ADS, Alternate Data Stream;"ADS" in cswordlist
+Adversary Deception
+Adversary success
+Alert data
+Alexa
+Analysis Methodology
+Anomaly
+Anomaly Detection;"specific anomalies" in page or "anomalous" in wordlist or "anomaly-based" in wordlist or "targeted anomaly" in page or "anomaly detection" in page
+Antimalware
+Antivirus;page.count("antivirus") > 1
+Anubis
+APK
+AppArmor
+Application Inspection
+Application Monitoring
+Application Whitelisting;page.count("application whitelisting") > 1
+Application Whitelisting, Bypass;("whitlisting" in wordlist and "trusted binaries" in page) or ("whitlisting" in wordlist and "bypass" in wordlist) or "adversary uses trusted filename" in page
+Application Whitelisting, Phase 0: Whitelist Building;"nsrl" in wordlist or "fielded-system executables" in wordlist or "pre-fielded system" in wordlist or "whitelisting and phase 0" in page
+Application Whitelisting, Phase 1: Targeted Detection;("whitelist" in wordlist and "targeted detection" in page) or ("whitelisting" in wordlist and "detect-only" in wordlist) or ("whitelisting" in wordlist and "phase 1" in page)
+Application Whitelisting, Phase 2: Strict Enforcement;"strict enforcement" in page or "unknown binary attempted execution" in page
+Applocker
+APT
+APT;"advanced persistent threat" in page
+argus
+ASD Top 35;"australian signals directorate" in page or "top 35 mitigations" in page
+ASD Top 35;"top 35" in page
+ASD Top 4;"top 4" in page
+ASEPs, Auto-Start Extensibility Points;"aseps" in wordlist or "autoruns" in wordlist or "reg run" in page or "registry run" in page
+ASEPs, Registry;"currentversion" in wordlist
+ASEPs;"asep" in wordlist or "autostart extensibility point" in page
+Asset Inventory;"asset inventory" in page
+Authentication;page.count("authentication") > 1
+Authentication Policy Silos
+Autoruns
+awk; "awk" in wordlist
+Backdoor
+Base64;"base 64" in page or "base64" in page
+Baseline Configuration;"security baseline" in page or "baseline config" in page or "security config" in page
+Baselining;"baseline monitoring" in page or "baselining" in wordlist
+Behavior;page.count("behavior") > 1
+Bejtlich
+BITS, Background Intelligents Transfer Service;"BITS" in cswordlist
+Blacklist
+Blue Team
+Bogon
+Botnet;"bots" in wordlist or "botnet" in wordlist
+Bro; "bro" in wordlist
+Browser;page.count("browser") > 1
+Browser attacks
+C2, HTTP;"http post c2" in page or "c2 post" in page or ("HTTP" in cswordlist and "c2" in wordlist)
+C2, HTTPS and X.509;"509" in page or ("organization" in wordlist and "country" in wordlist and "certificates" in wordlist)
+C2, HTTPS;("ssl" in wordlist and "c2" in page) or ("tls" in wordlist and "c2" in page) or ("HTTPS" in cswordlist and "c2" in page)
+C2, ICMP;"wireshark icmp example" in page or "ssh tunneled" in page
+C2, non-HTTPS SSL;"tls without https" in page or "https and non-http ssl" in page or "https meterpreter bind_tcp" in page
+C2, Persistent Connections;"persistent external" in page or "c2, persistent connections" in wordlist
+#C2, Proxy;("c2" in wordlist and "proxies" in wordlist) or ("c2" in wordlist and "proxy" in wordlist)
+C2, Tor;"tor" in wordlist and "c2" in wordlist or "tor https" in page
+C2;"command and control" in page or "cnc" in wordlist or "c&c" in wordlist or "c2" in wordlist
+C2;"command and control" in page or "command & control" in page
+Cached Credentials;"domain cached" in page or "cached credentials" in page
+CAPEX
+Carving
+CDM, Continuous Diagnostics and Miticgation;"CDM" in cswordlist or "cdm, continuous diagnostics and miticgation" in wordlist
+Change Detection;"change detection" in page or "change control" in page or "change notification" in page
+Change Monitoring;"change control board" in page or "change monitoring" in page
+Ciphertext
+CIS, Center for Internet Security;"CIS" in cswordlist
+Cleartext
+Client-Side;page.count("client-side") >1 and page.count("exploit") > 1
+Content Filter
+Content-Type;"mime type" in page or "content-type" in wordlist
+Correlated Data
+Cost per record
+Critical Controls, 10;"CSC" in cswordlist and " 10 " in page
+Critical Controls, 11;"CSC" in cswordlist and " 11 " in page
+Critical Controls, 12;"CSC" in cswordlist and " 12 " in page
+Critical Controls, 13;"CSC" in cswordlist and " 13 " in page
+Critical Controls, 14;"CSC" in cswordlist and " 14 " in page
+Critical Controls, 15;"CSC" in cswordlist and " 15 " in page
+Critical Controls, 16;"CSC" in cswordlist and " 16 " in page
+Critical Controls, 17;"CSC" in cswordlist and " 17 " in page
+Critical Controls, 18;"CSC" in cswordlist and " 18 " in page
+Critical Controls, 19;"CSC" in cswordlist and " 19 " in page
+Critical Controls, 1;"CSC" in cswordlist and " 1 " in page
+Critical Controls, 20;"CSC" in cswordlist and " 20 " in page
+Critical Controls, 2;"CSC" in cswordlist and " 2 " in page
+Critical Controls, 3;"CSC" in cswordlist and " 3 " in page
+Critical Controls, 4;"CSC" in cswordlist and " 4 " in page
+Critical Controls, 5;"CSC" in cswordlist and " 5 " in page
+Critical Controls, 6;"CSC" in cswordlist and " 6 " in page
+Critical Controls, 7;"CSC" in cswordlist and " 7 " in page
+Critical Controls, 8;"CSC" in cswordlist and " 8 " in page
+Critical Controls, 9;"CSC" in cswordlist and " 9 " in page
+Critical Controls, First Five Quick Wins;"first five" in page or "critical controls, first five quick wins" in wordlist
+Critical Security Controls;"critical controls" in page or "critical security controls" in page
+Cuckoo
+CyberScope
+Daemonlogger
+Data Breach
+Data Classification
+Data compromise
+Daylight Savings Time;"dst" in wordlist or "daylight savings time" in page
+DBIR;"data breach investigation report" in page or "dbir" in wordlist
+DDoS;"distributed denial of service" in page or "ddos" in wordlist
+Debug Programs
+Deception Devices
+Deduction
+Default Deny
+Defensible Network
+Detection-Oriented
+DIACAP
+diff;"diff" in wordlist
+Dirty Word List;"dirty wordlist" in page or "dirty word list" in page
+Display filters;("tshark" in wordlist and "-r" in wordlist) or ("wireshark" in wordlist and "filter" in wordlist)
+DITSCAP
+DLL
+#DNS;page.count("dns") > 1
+DNS, failed-dns-query;page.count("long-dns-query") > 1
+DNS, Logging;("dns" in wordlist and "log" in wordlist) or ("logging" in wordlist and "bind" in wordlist)
+DNS, long-dns-query;"long-dns-query" in page or "dns, long-dns-query" in page
+DNS, NXDOMAIN;"nxdomain" in wordlist or "failed dns query" in page
+DOCX;"doc" in wordlist or "docx" in wordlist
+DoS, Denial of Service;page.count("denial of service") >1 or wordlist.count("dos") > 1
+dumpcap
+Dynamic Analysis
+Egress
+ELSA
+Emerging Threats;"ET" in cswordlist
+EMET, Enhanced Mitigation Experience Toolkit;"EMET" in cswordlist or "emet, enhanced mitigation experience toolkit" in wordlist
+Enable-PSRemoting
+Entropy
+Entropy;"random" in wordlist or "entropy" in wordlist
+Event ID 1056, RDP Self-Signed Cert;"1056" in page or "event id 1056, rdp self-signed cert" in page
+Event ID 1102, Event Log Cleared;"1102" in page or "event id 1102, event log cleared" in page
+Event ID 2003, Firewall Disabled;"event 2003" in page or "ID" in cswordlist and "2003" in page
+Event ID 2005, Firewall Rule;"2005" in page or "event id 2005, firewall rule" in page
+Event ID 4624, Logon;"4624" in page or "event id 4624, logon" in page
+Event ID 4720, User Creation;"4720" in page or "event id 4720, user creation" in page
+Event ID 4722, User Enabled;"4722" in page or "event id 4722, user enabled" in page
+Event ID 4724, Password Reset;"4724" in page or "event id 4724, password reset" in page
+Event ID 4732, User Added to Group;"4732" in page or "event id 4732, user added to group" in page
+Event ID 4738, Account Changed;"4738" in page or "event id 4738, account changed" in page
+Event ID 7030, Interactive Service Error;"7030" in page or "event id 7030, interactive service error" in page
+Event ID 7045, Service Creation;"7045" in page or "event id 7045, service creation" in page
+Event IDs, Applocker;"8003" in page or "8006" in page or "8004" in page or "8007" in page
+Event IDs, Removable Media;("system log" in page and "usb" in wordlist)
+Event Logs, Critical Windows Events;"critical windows events" in page or "malice and windows events" in page or "critical event" in page or "7045" in wordlist or "7030" in wordlist
+Event Logs, Damaged;("event logs" in page and "damaged" in wordlist)
+Event Logs, Windows;page.count("event logs") > 2 and "windows" in page or ("windows" in wordlist and "centralized" in wordlist and "logging" in wordlist) or "collectors and sources" in page or "collector and windows" in page or "windows event collector" in page or "event viewer" in page or "log and event query" in page or "log settings and windows" in page or "auditpol" in wordlist
+Event Viewer;"event viewer" in page or "eventvwr" in wordlist
+eventvwr
+EXE, MZ;"MZ" in cswordlist
+EXE, PE;"PE" in cswordlist
+EXE, This program cannot be run in DOS mode;"this program cannot be run in dos mode" in page or "exe, this program cannot be run in dos mode" in page
+EXE, This program must be run under Win32;"this program must be run under win32" in page or "exe, this program must be run under win32" in page
+EXE, This program must be run under Win64;"this program must be run under win64" in page or "exe, this program must be run under win64" in page
+EXE, Transfer;(("exe" in wordlist or "executable" in wordlist) and ("transfer" in wordlist or "transfers" in wordlist)) or "executable flow" in page
+EXE;"EXE" in cswordlist
+Executable;page.count("executable") > 2
+Exfiltration;page.count("exfiltration") > 1
+Exploitation;page.count("exploitation") > 2
+Extracted data
+False Negative
+False Positive
+File Analysis
+File Carving;"carving files" in page
+File Integrity Monitoring
+File-format;"file format" in page or "file-format" in page
+FIPS 199;"fips 199" in page
+Firewalls;"internal firewalls" in page or "internal si firewalls" in page or "ngfw" in wordlist
+Flash
+Flow Data;"netflow" in wordlist or "ipfix" in wordlist
+Forensics
+Forward Proxy
+Framework
+GeoIP
+Get-WinEvent
+grep
+Group Policy;"gpo" in wordlist or "group policy" in page
+Hanlon's Razor;"hanlon" in page
+HIDS, Host Intrusion Detection System;"hids" in wordlist or "hids, host intrusion detection system" in wordlist
+HIPS, Host Intrusion Prevention System;"hips" in wordlist or "hips, host intrusion prevention system" in wordlist
+HKLM\Security\Policies\Secrets
+HoneyAdmins
+Honeyclients
+Honeynets
+Honeypots;"internal listening" in page or "deception" in wordlist
+HoneyRobots.txt
+HoneySAT
+HoneyTable
+HoneyTokens
+HoneyUsers
+HTTP GET;"GET" in cswordlist and "HTTP" in cswordlist
+HTTP POST;"POST" in cswordlist and "HTTP" in cswordlist
+Hunt team
+Hunt Teams;"hunt team" in page or "hunting" in wordlist
+Hypothesis Management;"hypotheses" in wordlist or "hypothesis management" in page
+ICMP
+ICMP 0:0, Echo Reply;"icmp type 0" in page or "echo reply" in page
+ICMP 8:0, Echo Request;"icmp type 8" in page or "ping" in wordlist or "echo request" in page
+IDS Frontends;"sguil" in wordlist or "snorby" in wordlist or "squert" in wordlist
+Impersonation Level;"delegate tokens" in page or "impersonation level" in page
+Inbound Filtering
+Incident Response
+Indicator Identification
+Indicators
+Indicators of Compromise;"ioc" in wordlist or "iocs" in wordlist
+Interactive Logon
+Internal SI Firewalls
+Inventory, Active Scanning;"active scanning" in page or ("scan" in wordlist and "inventory" in wordlist)
+Inventory, Passive Discovery;"passive scanning" in page or "passive discovery" in page or "passive host discovery" in page or "pads" in wordlist or "prads" in wordlist or "p0f" in wordlist
+Invisibility
+IPFIX
+IRC
+IRC C2;("irc" in wordlist and "c2" in page)
+ISCM, Information Security Continuous Monitoring;"iscm" in wordlist or "iscm, information security continuous monitoring" in wordlist
+JAR
+Java
+JavaScript
+Joe Sandbox;"joe security" in page or "joe sandbox" in page
+Kansa
+Kill Chain
+LanMan Hash;"lm hash" in page or "lanman hash" in page
+Layer 3
+Layer 4
+Layer 7
+LiveSSP
+Log data
+Log files
+Log Monitoring
+Log Review
+Logon Types, Type 10;"type 10" in page or "remote interactive" in page
+Logon Types, Type 11;"type 11" in page or "cached credentials" in page
+Logon Types, Type 2;"type 2" in page or "interactive logon" in page
+Logon Types, Type 3;"type 3" in page or "network logon" in page
+Logon Types, Type 4;"type 4" in page or "service logon" in page
+Logon Types, Type 7;"type 7" in page or "unlock" in page
+Long Tail Analysis;"stacking analytics" in page or "stakrank" in wordlist or "stack ranking" in page or "long tail" in page
+LSA Secrets
+lsass.exe
+LUA Buglight
+M-Trends
+Malvertising
+Malware Detonation Devices
+MBSA, Microsoft Baseline Security Analyzer;"mbsa" in wordlist or "mbsa, microsoft baseline security analyzer" in wordlist
+Memory Analysis
+Metadata
+Metasploit;page.count("metasploit") > 1
+Meterpreter
+Microsoft Account
+Microsoft Office
+Mimikatz
+Minnow;"minnows" in wordlist or "minnow" in wordlist
+Mobile application
+Mobile device
+ModSecurity
+MSSP
+NAT;"NAT" in cswordlist
+Nation-State
+ndiff
+NetFlow;"netflow" in wordlist or "netflow" in wordlist
+netsniff-ng;"netsniff" in wordlist or "netsniff-ng" in wordlist
+Network Logon
+NGFW;"next generation firewall" in page or "NGFW" in cswordlist
+ngrep
+NIDS;"network intrusion detection system" in page or page.count("nids") > 1
+NIPS;"network intrusion prevention system" in page or "nips" in wordlist
+nmap
+Non-Encrypted HTTPS
+NSRL RDS;"nsrl" in wordlist or "nsrl rds, national software reference library reference dataset" in wordlist
+NT Hash
+NTFS Permissions
+Obfuscation;"obfuscated" in wordlist or "obfuscation" in wordlist
+Offense informs defense
+OpenAppId
+OpenVAS
+OPEX
+OSSEC
+Outbound connections;"persistent outbound connections" in page or "high volume outbound" in page or "unexpected destinations" in page
+Outbound Filtering
+Outsource;"outsourcing" in wordlist or "outsource" in wordlist
+p0f
+PAC;"proxy auto-configuration" in wordlist or "PAC" in cswordlist
+Packet capture, Full;page.count("full packet capture") > 1 or page.count("full pcap") > 1
+Packet Data;page.count("packet capture") > 1 or page.count("PCAP") > 1
+PADS, Passive Asset Database;"pads" in wordlist or "pads, passive asset database" in wordlist
+Pass the pass
+Pass-the-Hash;"pth" in wordlist or "pass the hash" in page
+Password Hashes
+Passwords Hashes, Ntds.dit;"ntds.dit" in page
+Passwords Hashes, SAM;"SAM" in cswordlist or "passwords hashes, sam" in wordlist
+Patching;page.count("patching") > 1
+PDF;"PDF" in cswordlist
+Perfect Solution Fallacy
+Perimeter SI Firewall;"perimeter" in wordlist and "firewall" in wordlist and ("SI" in cswordlist or "stateful inspection" in page)
+Persistence, registry;("persistence" in page and "registry" in wordlist)
+Persistence, service;("persistence" in wordlist and "services" in wordlist)
+persistent.pl
+Phish;"phishing" in wordlist or "phish" in wordlist
+Phishing
+Pivoting;page.count("lateral movement" or "pivoting") > 1
+Plugin
+Ponemon
+Port Scan
+Post-Exploitation;page.count("post-exploitation") > 1
+PowerShell Remoting;"psremoting" in wordlist or "powershell remoting" in page
+PPT
+PPTX
+PRADS
+PRADS, Passive Real-Time Asset Database;"prads" in wordlist or "prads, passive real-time asset database" in wordlist
+Prevention-Oriented
+Privilege escalation;"escalation" in wordlist or "privilege escalation" in page
+Process Monitor
+Protected Users
+Protocol Behavior
+Proxies;wordlist.count("proxy") > 1
+PSExec
+Rainbow Tables
+Red Team
+Redline
+Registry keys;"or registry startup keys" in page or "registry keys" in page
+Remote Interactive
+Reputation
+Response-Driven
+Restricted Admin Mode RDP
+Reverse HTTP
+Reverse HTTPS
+RFC 1918;"rfc1918" in page or "rfc 1918" in page
+Risk Informed
+Risk Management
+RMF, Risk Management Framework;"rmf" in wordlist or "rmf, risk management framework" in wordlist
+Router;page.count("router") > 1
+RTF
+Salts
+SANCP
+Sandbox
+SCAP, Security Content Automation Protocol;"scap" in wordlist or "scap, security content automation protocol" in wordlist
+SCCM, System Center Configuration Manager;"sccm" in wordlist or "sccm, system center configuration manager" in wordlist
+Scheduled Tasks
+SCM, Security Compliance Manager;"scm" in wordlist or "scm, security compliance manager" in wordlist
+SCUP, System Center Updates Publisher;"scup" in wordlist
+Security Onion
+SeDebugPrivilge;"debug programs" in page or ("debug" in wordlist and "privilege" in wordlist)
+Sensor Placement;"nids placement" in page or "sensor placement" in page
+Sensor Placement;"umbrella sensor" in page or "sensor placement" in page
+Sensor, Security Onion;"sensor" in page and "security onion" in page
+Sensor, Design;"sensor design" in page
+Sensor, NSM;"nsm sensor" in page
+Sensor, Umbrella;"umbrella sensor" in page
+Sensor, External;"external sensor" in page
+Sensor, DMZ;"dmz sensor" in page
+Service Accounts
+Service Logon
+Service-side;(page.count("server-side") > 1 or page.count("service-side") > 1) and page.count("exploit") > 1
+Set-ExecutionPolicy
+sFlow
+Sguil
+Shell;"shell" in wordlist
+Shellcode
+SI Firewall;"stateful inspection" in page or "si firewall" in page
+SID;"SID" in cswordlist
+SIEM;"SIM" in cswordlist or "SIEM" in cswordlist
+Signature Evasion
+Signature Matching
+SiLK
+Situational Awareness
+Sniffing
+Sniffing, Hubs;"hub" in wordlist and "sniff" in wordlist
+Sniffing, Port Mirror/SPAN Port;"mirror port" in page or "span port" in page
+Sniffing, Port Overload;"tap buffer" in page or "sniffing, port overload" in page
+Sniffing, Taps;"taps" in wordlist or "network tap" in page
+Sniffing, Virtual;"sniffing virtual" in page or "sniffing, virtual" in wordlist
+Snorby
+Snort
+Snort Frontends;"sguil" in wordlist or "snorby" in wordlist or "acid" in wordlist or "BASE" in cswordlist or "squert" in wordlist
+SOC;"SOC" in cswordlist
+Social Engineering
+SP 800-117;"800-117" in page
+SP 800-137;"800-137" in page
+SP 800-37;"800-37" in page
+Spam
+Splash Proxy
+Splunk
+Spoofed;"forged" in wordlist or "spoofed" in wordlist
+SQL Injection
+SRP, Software Restiction Policies;"srp" in wordlist or "srp, software restiction policies" in wordlist
+SSH
+SSL;"port 443" in page or cswordlist.count("HTTPS") > 1 or cswordlist.count("SSL") > 1
+SSO, Single Sign-On;"SSO" in cswordlist or "sso, single sign-on" in wordlist
+SSP, Security Service Provider;"ssp" in wordlist or "sspi" in wordlist or "security service provider" in page
+Stage 2;"tracking exe" in page or "stage 2" in page
+Statistical Data
+STIGs, Security Technical Implementation Guides;"stig" in wordlist or "stigs" in wordlist
+Strategic Web Compromise
+String data;"pcap strings" in page or "string data" in page
+strings, command;"strings" in page and "pcap" in page
+Suricata
+Sysmon
+Sysmon, syntax and configuration;("sysmon" in wordlist and "syntax" in wordlist) or ("sysmon" in wordlist and "configuration" in wordlist)
+Tagged data;"tagging" in wordlist or "tagged rule" in page
+Target Breach;("target" in wordlist and "breach" in wordlist)
+TCP/21, FTP;"port 21" in page or "ftp" in wordlist
+TCP/22, SSH;"port 22" in page or "ssh" in wordlist
+TCP/3389, RDP;"port 3389" in page or "3389" in wordlist or "rdp" in wordlist
+TCP/443, HTTPS;"port 443" in page or cswordlist.count("HTTPS") > 1 or cswordlist.count("SSL") > 1
+TCP/6667, IRC;"port 6667" in page or "6667" in wordlist or "IRC" in cswordlist
+TCP/80, HTTP;"port 80 " in page or cspage.count("HTTP") > 1
+tcpflow
+Teensy
+Threat Intelligence
+Threat Intelligence;"threat intel" in page
+ThreatExpert
+ThreatTrack
+Time synchronization;"ntp" in wordlist or "utc" in wordlist or "time zone" in page or "daylight savings time" in page
+Time Zone
+TLS
+True Positive
+tshark
+tspkg
+TTPs
+TTPs;"TTP" in cswordlist or "tactics, techniques, and procedures" in wordlist
+Tunnel
+Two-Factor Authentication;"two factor" in page or "two-factor" in page
+UAC, User Account Control;"uac" in wordlist or "uac, user account control" in wordlist
+UDP/123, NTP;"ntp" in wordlist or "port 123" in page
+UDP/53, DNS;"port 53" in page or page.count("dns") > 1
+UDP/69, TFTP;"port 69" in page or "tftp" in wordlist
+URL Analysis
+USB
+User Rights, Windows;("windows" in wordlist and "user rights" in page)
+User Visibility
+User-Agent;"user agent" in page or "user-agent" in wordlist
+UTC
+Virtual Patching;"virtual patch" in page or "virtual patching" in page
+VirusTotal
+Visibility;page.count("visibility") > 1
+VLAN ACLs
+VNC
+VPN
+Vulnerability assessment
+Vulnerability Scanning;"vulnerability scan" in page or "vulnerability scanning" in page
+Watering Hole
+WDigest
+Web Application Firewall;"waf" in wordlist or "web application firewall" in page
+wecutil
+Wepawet
+wevutil
+WFAS, Windows Firewall with Advanced Security;"wfas" in wordlist or "windows firewall" in page
+Whitelist Integrity
+Windows Remoting;"winrm" in wordlist
+winrm
+Wireshark;page.count("wireshark") > 1
+WMF
+WPAD;"web proxy autodiscovery protocol" in page or "wpad" in wordlist
+WSUS, Window Server Update Services;"wsus" in wordlist or "wsus, window server update services" in wordlist
+X.509
+XLS
+XLSX
+XLSX;"xls" in wordlist or "xlsx" in wordlist
+XOR
+Zero-copy
+Zero-day;"zero day" in page or "0day" in wordlist or "0-day" in wordlist
+Zone.Identifier
+Event Logs, Windows;page.count("event logs") > 2 and "windows" in page
+Windows Event Collector;"windows event collector" in page
+Log Settings, Windows;"log settings" in page and "windows" in page
+Event Query, Windows;"log" in page and "event query" in page
+Centralized Logging, Windows;"windows" in wordlist and "centralized" in wordlist and "logging" in wordlist
